@@ -1,10 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 export default function Navbar() {
     return (
         <div className='nb_container flex flow-r'>
-            <div className='nb_logo'>
+            <div className='nb_logo flex'>
                 <h3>PRACTICA ROUTER</h3>
             </div>
             <div className='nb_link'>
@@ -16,13 +16,13 @@ export default function Navbar() {
                     <Link to='/Productos'>Producto</Link>
                         <ul className='menu_DD flex flow-c' >
                             <li>
-                                <Link to='/Productos/Categoria/Tarjetas-de-video'>Producto</Link>   
+                                <NavLink to='/Productos/Categoria/Placas-de-video'>Placas de Video</NavLink>   
                             </li>
                             <li>
-                            <Link to='/Productos/Categoria/Procesadores'>Producto</Link>
+                            <NavLink to='/Productos/Categoria/Procesadores'>Procesadores</NavLink>
                             </li>
                             <li>
-                            <Link to='/Productos/Categoria/Perifericos'>Producto</Link>
+                            <NavLink to='/Productos/Categoria/perifericos'>Perifericos</NavLink>
                             </li>
                         </ul>
                     </li>

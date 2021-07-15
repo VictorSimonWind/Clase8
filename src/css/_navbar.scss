@@ -8,7 +8,10 @@
         //overflow: hidden;
     }
     &_logo{
-
+        justify-content: center;
+        justify-items: center;
+        width: fit-content;
+        height: 50px;
     }
     &_link{
         li{
