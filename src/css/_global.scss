@@ -1,0 +1,37 @@
+*{
+  list-style: none;
+}
+.flex{
+  display: flex;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.flow-r{
+  flex-flow: row wrap;
+}
+
+.flow-c{
+  flex-flow: column wrap;
+}
+/* global styles */
+
+.menu_DD{
+  display: none;
+  position: absolute;
+  background-color: dodgerblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 5px;
+  padding:0;
+
+    li{
+      float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+    }
+}

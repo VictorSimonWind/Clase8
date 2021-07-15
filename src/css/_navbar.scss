@@ -1,0 +1,27 @@
+.nb{
+    &_container{
+        position: fixed;
+        justify-content: space-between;
+        width: 100%;
+        height: 50px;
+        background-color: dodgerblue;
+        //overflow: hidden;
+    }
+    &_logo{
+
+    }
+    &_link{
+        li{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+    &_category{
+        color: red;
+        &:hover .menu_DD{
+            color: black;
+            display: block;
+        }
+    }
+}
+
