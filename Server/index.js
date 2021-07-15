@@ -39,7 +39,6 @@ app.get('/product/:id', (req,res) => {
 })
 app.get('/product/category/:categoryID', (req,res) => {
     console.log('estamos Seleccion de categorias');
-    console.log(req);
     let categoria = req.params.categoryID;
     //categoria = id.substring(1);
     console.log(categoria);
@@ -49,7 +48,7 @@ app.get('/product/category/:categoryID', (req,res) => {
 
     json = JSON.parse(json);
     json = json.filter(filter => filter.categoria == categoria);
-   // console.log(json);
+    console.log(json);
     res.send(json);
 
 })

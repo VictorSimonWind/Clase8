@@ -1,6 +1,13 @@
 import React from 'react'
+/**para manipular las direccion debemos importar el elemento Link o NavLink */
 import { Link, NavLink } from 'react-router-dom'
 
+
+
+/**los Link, son tomados por nuestro sistema como la etiqueta "a" de html 
+ * en donde la propiedad to sirve para indicarle la ruta dentro de nuestra
+ * pagina que la misma debe seguir
+*/
 export default function Navbar() {
     return (
         <div className='nb_container flex flow-r'>

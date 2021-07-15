@@ -4,6 +4,7 @@ import { useParams } from 'react-router'
 
 export default function ItemDetail() {
 
+    /**useParams Puede recibir mas de una Variable */
     const {itemName,itemID} = useParams()
 
     return (
