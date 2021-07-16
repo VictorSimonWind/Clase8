@@ -16,13 +16,13 @@ export default function Navbar() {
                     <Link to='/Productos'>Producto</Link>
                         <ul className='menu_DD flex flow-c' >
                             <li>
-                            <NavLink to='/Productos/Categoria/Placas-de-video' activeClassName='link_actual'>Placas de Video</NavLink>   
+                            <NavLink to='/Productos/Categoria/Placas-de-video' activeClassName='activo'>Placas de Video</NavLink>   
                             </li>
                             <li>
-                            <NavLink to='/Productos/Categoria/Procesadores'>Procesadores</NavLink>
+                            <NavLink to='/Productos/Categoria/Procesadores' activeClassName='activo'>Procesadores</NavLink>
                             </li>
                             <li>
-                            <NavLink to='/Productos/Categoria/perifericos'>Perifericos</NavLink>
+                            <NavLink to='/Productos/Categoria/perifericos' activeClassName='activo'>Perifericos</NavLink>
                             </li>
                         </ul>
                     </li>

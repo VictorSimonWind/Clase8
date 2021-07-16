@@ -11,6 +11,7 @@ import Cart from './Components/Pages/Cart';
  * abrimos la consola de comandos
  * y escribimos el comando
  * npm i react-router-dom 
+ * https://reactrouter.com/web/guides/quick-start
  */
 /** IMPORTAMOS EL ROUTER
  * BrowserRouter as Router es una forma de darle un nombre mas corto para implementar
